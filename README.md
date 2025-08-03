@@ -1,7 +1,6 @@
 # ♟ PGN ↔ Polyglot BIN Converter
 
 Convert **PGN files to Polyglot `.bin` opening books** and extract moves from `.bin` to PGN easily with Python.
-
 ---
 
 ### ✅ What You Can Do in 4 Steps:
@@ -14,8 +13,8 @@ Convert **PGN files to Polyglot `.bin` opening books** and extract moves from `.
 
 ## ✅ Includes Scripts:
 - **Create `.bin` books from PGN** → `smoothestbinmaker.py`
-- **Extract PGN from `.bin`** → `extractpgnfrombin.py`
-- **Generate readable moves from `.bin`** → `generatepgn2frombin.py`
+- **Extract PGN from `.bin`** → `extractpgnfrombin_u_can_use_it_also.py`
+- **Generate randomized moves from `.bin`** → `generatepgn2frombin.py` , i suggest never use it, it returns random moves in random lines from entire book u will get a illegal line .
 
 ---
 
@@ -47,7 +46,7 @@ To convert pgn to bin in `smoothestbinmaker.py`
     build_book_file("your_pgn_file2.pgn", "output_book2.bin")
     python smoothestbinmaker.py or python3 smoothestbinmaker.py
 ```
-To undo the bin to pgn go through the code `generatepgn2.py` and `extract_pgn_from_bin,u_can_use_it_also.py` update the paths and try to do it urself
+To undo the bin to pgn go through the code`extract_pgn_from_bin,u_can_use_it_also.py` update the paths and try to do it urself , *It is good*
 I put a sample github actions workflow which u can run after editing `smoothestbinmaker.py` to download the books via github artifacts
 
 
