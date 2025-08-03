@@ -47,11 +47,22 @@ To convert pgn to bin in `smoothestbinmaker.py`
     build_book_file("your_pgn_file2.pgn", "output_book2.bin")
     python smoothestbinmaker.py or python3 smoothestbinmaker.py
 ```
-To undo the bin to pgn go through the code `generateogn.py` and `extract_pgn_from_bin.py` update the paths and try to do it urself
+To undo the bin to pgn go through the code `generatepgn2.py` and `extract_pgn_from_bin,u_can_use_it_also.py` update the paths and try to do it urself
 I put a sample github actions workflow which u can run after editing `smoothestbinmaker.py` to download the books via github artifacts
 
-        SamplePGN.pgn
 
-        SamplePGN1.pgn
+## IF U WANT TO MERGE MULTIPLE `.pgn` INTO A SINGLE BOOK , MODIFY `smoothestbinmaker.py` like this 
+```bash
+   if __name__ == "__main__":
+    combined_book = Book()
+    build_book_file("SamplePGN.pgn", "temp1.bin")
+    combined_book.merge_file("temp1.bin")
+    build_book_file("SamplePGN1.pgn", "temp2.bin")
+    combined_book.merge_file("temp2.bin")
+    combined_book.save_as_polyglot("combined.bin")
+```
+then run it , rememberb `python3` for linux and `python` for windows
+
+###### PRS ARE WELCOME !!
 
 
