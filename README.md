@@ -35,5 +35,23 @@ Convert **PGN files to Polyglot `.bin` opening books** and extract moves from `.
 Install using:
 ```bash
 pip install python-chess
+git clone https://github.com/suprateem-ux/PGN-------.bin.git
+cd PGN-------.bin
+```
+✅ Step 2: Prepare Files
 
-## ✅ Step 1: Requirements
+To convert pgn to bin in `smoothestbinmaker.py`
+ ```bash
+    if __name__ == "__main__":
+    build_book_file("your_pgn_file1.pgn", "output_book1.bin")
+    build_book_file("your_pgn_file2.pgn", "output_book2.bin")
+    python smoothestbinmaker.py or python3 smoothestbinmaker.py
+```
+To undo the bin to pgn go through the code `generateogn.py` and `extract_pgn_from_bin.py` update the paths and try to do it urself
+I put a sample github actions workflow which u can run after editing `smoothestbinmaker.py` to download the books via github artifacts
+
+        SamplePGN.pgn
+
+        SamplePGN1.pgn
+
+
