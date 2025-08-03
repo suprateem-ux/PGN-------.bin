@@ -3,8 +3,12 @@ import chess.pgn
 import chess.polyglot
 import datetime
 
+# Maximum number of moves from each game to include in the book
 MAX_BOOK_PLIES = 200
+# Internal weight normalization target
 MAX_BOOK_WEIGHT = 1000000
+# Maximum weight allowed in Polyglot entry (16-bit)
+POLYGLOT_MAX_WEIGHT = 65535
 
 def format_zobrist_key_hex(zobrist_key):
     return f"{zobrist_key:016x}"
@@ -28,8 +32,6 @@ class BookPosition:
 class Book:
     def __init__(self):
         self.positions = {}
-        self.num_positions = 0
-        self.num_moves = 0
 
     def get_position(self, zobrist_key_hex):
         return self.positions.setdefault(zobrist_key_hex, BookPosition())
@@ -40,6 +42,8 @@ class Book:
             if total_weight > 0:
                 for bm in pos.moves.values():
                     bm.weight = int(bm.weight / total_weight * MAX_BOOK_WEIGHT)
+                    if bm.weight < 1:
+                        bm.weight = 1
 
     def save_as_polyglot(self, path):
         with open(path, 'wb') as outfile:
@@ -58,12 +62,17 @@ class Book:
                         mi += ((move.promotion - 1) << 12)
 
                     mbytes = mi.to_bytes(2, byteorder="big")
-                    wbytes = bm.weight.to_bytes(2, byteorder="big")
+
+                    # Clamp weight to 1..65535 for Polyglot format
+                    weight = min(max(bm.weight, 1), POLYGLOT_MAX_WEIGHT)
+                    wbytes = weight.to_bytes(2, byteorder="big")
+
                     lbytes = (0).to_bytes(4, byteorder="big")
 
                     entry = zbytes + mbytes + wbytes + lbytes
                     entries.append(entry)
 
+            # Sort by Zobrist key and move order
             entries.sort(key=lambda e: (e[:8], e[10:12]), reverse=False)
 
             for entry in entries:
@@ -117,7 +126,7 @@ def build_book_file(pgn_path, book_path):
     with open(pgn_path) as pgn_file:
         for i, game in enumerate(iter(lambda: chess.pgn.read_game(pgn_file), None), start=1):
             if i % 100 == 0:
-                print(f"Processed {i} games")
+                print(f"Processed {i} games from {pgn_path}")
 
             ligame = LichessGame(game)
             board = game.board()
