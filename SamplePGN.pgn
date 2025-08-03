@@ -299,6 +299,28 @@
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8. Rxe5 O-O 9. d4 Bf6 10. Re2 b6 11. Re1 Bb7 12. Bf4 Ne4 13. Nd2 Re8 14. a4 c5 15. Nf3 h5 16. Be3 g6 17. c3 Qc7 18. Qb3 d5 19. g3 c4 20. Qd1 Bc8 21. Bf4 Qc6 22. Bg2 Bf5 23. h3 Rad8 24. a5 Rd7 25. axb6 Qxb6 26. Ra2 Bd8 27. Qa4 Rde7 28. Nh4 Bc7 29. Qxa7 Qxa7 30. Rxa7 Bxf4 31. Rxe7 Rxe7 32. gxf4 Rb7 33. Re2 Kg7 34. Nxf5+ gxf5 35. h4 Kf6 36. Bf3 Kg6 37. Kh2 Ra7 38. Kg2 Ra1 39. Rc2 Ra2 40. Re2 Ra8 41. Kh2 Ra2 42. Kh3 Ra1 43. Bg2 Ra2 44. Rc2 Ra1 45. Kh2 Ra2 46. Bh3 Kf6 47. Bg2 Ra1 48. Re2 Ra2 49. Bf1 Ra1 50. Bh3 Ra2 51. f3 Nxc3 52. Rg2 Nd1 53. Rg5 c3 54. Bxf5 Rxb2+ 55. Kg1 Ne3 56. Bh7 c2 57. Bxc2 Rxc2 58. Rxh5 Rg2+ 59. Kh1 Rf2 60. Re5 Rf1+ 61. Kh2 Rxf3 62. h5 Ng4+ 63. Kg2 Rxf4 64. Re8 Kg5 65. Re7 Kh4 66. h6 Nxh6 67. Re8 Ng4 68. Rh8+ Kg5 69. Rg8+ Kf6 70. Kh3 Rxd4 71. Rb8 Kg5 72. Ra8 Rd3+ 73. Kg2 Kf4 74. Ra2 d4 75. Ra6 Rd2+ 76. Kf1 d3 77. Re6 Ne3+ 78. Rxe3 Kxe3 79. Kg1 Re2 80. Kf1 d2 81. Kg1 d1=Q# 0-1
 
+[Event "casual bullet game"]
+[Site "https://lichess.org/m3hRx8WF"]
+[Date "2025.08.02"]
+[White "AttackKing_Bot"]
+[Black "NimsiluBot"]
+[Result "0-1"]
+[GameId "m3hRx8WF"]
+[UTCDate "2025.08.02"]
+[UTCTime "05:29:01"]
+[WhiteElo "3161"]
+[BlackElo "3220"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "30+0"]
+[ECO "C67"]
+[Opening "Ruy Lopez: Berlin Defense, Berlin Wall"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. h3 h6 11. b3 Kc8 12. Bb2 b6 13. Rad1 a5 14. a4 Ne7 15. Nd4 Nd5 16. Nce2 Nb4 17. c4 Rg8 18. Nf4 Na6 19. Rfe1 Bb4 20. Re3 Nc5 21. g4 g5 22. Nd3 Ne6 23. Nf5 Bf8 24. Ng3 b5 25. Ne4 Be7 26. Bc3 Rb8 27. Rf3 Rf8 28. c5 b4 29. Bb2 Be8 30. Re1 Rg8 31. Ree3 Kb7 32. Kf1 Rd8 33. Rf5 Ka6 34. Ke2 Rh8 35. Nd6 Rh7 36. Kf1 Ra8 37. Ne4 h5 38. f3 Bd7 39. Nf6 Bxf6 40. exf6 Rd8 41. Nf2 Bc8 42. Be5 hxg4 43. fxg4 Rhh8 44. Ne4 Rhg8 45. Bh2 Rd1+ 46. Kg2 Rd5 47. Re1 Rd4 48. Kg3 Rd3+ 49. Rf3 Rd5 50. Bg1 Re8 51. Be3 Bd7 52. Re2 Re5 53. Bg1 Nf8 54. Rfe3 Be6 55. Nd2 Rd5 56. Bf2 Nh7 57. Rf3 Rdd8 58. Kh2 Kb7 59. Kg3 Bd5 60. Rxe8 Rxe8 61. Re3 Rd8 62. Re5 Nxf6 63. Be3 Nh7 64. Re7 Kc8 65. Kf2 Be6 66. Ke2 Rg8 67. Bd4 Kd8 68. Rxe6 fxe6 69. Nc4 e5 70. Nxe5 Re8 71. Kf3 Nf8 72. Nxc6+ Kd7 73. Ne5+ Kc8 74. Nc6 Ng6 75. Nxa5 Ne5+ 76. Bxe5 Rxe5 77. Nc6 Rxc5 78. Nxb4 Rc3+ 79. Ke4 Rxh3 80. Nd3 Rg3 81. Ne5 Rxb3 82. Kf5 Re3 83. a5 Kb7 84. Kf6 Re4 85. Kf5 Re2 86. Kf6 c5 87. Nc4 Kc6 88. Kxg5 Kd5 89. Nb6+ Kd4 90. Kf6 Ra2 91. g5 Rxa5 92. Nc8 c4 93. Nd6 c3 94. Nf5+ Ke4 95. Nd6+ Kd4 96. Nf5+ Rxf5+ 97. Kxf5 c2 98. g6 c1=Q 99. g7 Qc8+ 100. Kf4 Qg8 101. Kg5 Qxg7+ 102. Kf5 Qe5+ 103. Kg6 Ke4 104. Kh7 Kf5 105. Kg8 Kf6 106. Kh8 Qg5 107. Kh7 Qg7# 0-1
+
+
 
 
 
