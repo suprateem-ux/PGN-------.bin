@@ -37,7 +37,7 @@ pip install python-chess
 git clone https://github.com/suprateem-ux/PGN-------.bin.git
 cd PGN-------.bin
 ```
-#✅ Step 2: Prepare Files
+# ✅ Step 2: Prepare Files
 ### EVERYTHING NEED TO BE IN THE SAME DIRECTORY/REPOSITORY/FOLDER AS THE SCRIPTS!
 --
 To convert pgn to bin in `smoothestbinmaker.py`
