@@ -63,7 +63,7 @@ To undo a `.bin` to `.pgn` go through the code`extract_pgn_from_bin,u_can_use_it
     combined_book.merge_file("temp2.bin")
     combined_book.save_as_polyglot("combined.bin")
 ```
-then run it , rememberb `python3` for linux and `python` for windows
+then run it , remember `python3` for linux and `python` for windows
 
 ###### PRS ARE WELCOME !!
 
