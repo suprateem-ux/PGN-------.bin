@@ -46,8 +46,10 @@ To convert pgn to bin in `smoothestbinmaker.py`
     build_book_file("your_pgn_file2.pgn", "output_book2.bin")
     python smoothestbinmaker.py or python3 smoothestbinmaker.py
 ```
+---
 To undo the bin to pgn go through the code`extract_pgn_from_bin,u_can_use_it_also.py` update the paths and try to do it urself , *It is good*
-I put a sample github actions workflow which u can run after editing `smoothestbinmaker.py` to download the books via github artifacts
+---
+## I put a sample github actions workflow which u can run after editing `smoothestbinmaker.py` to download the books via github artifacts
 
 
 ## IF U WANT TO MERGE MULTIPLE `.pgn` INTO A SINGLE BOOK , MODIFY `smoothestbinmaker.py` like this 
