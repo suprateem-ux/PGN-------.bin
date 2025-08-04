@@ -38,18 +38,19 @@ git clone https://github.com/suprateem-ux/PGN-------.bin.git
 cd PGN-------.bin
 ```
 ✅ Step 2: Prepare Files
-
+# EVERYTHING NEED TO BE IN THE SAME DIRECTORY/REPOSITORY/FOLDER AS THE SCRIPTS!
+--
 To convert pgn to bin in `smoothestbinmaker.py`
  ```bash
     if __name__ == "__main__":
-    build_book_file("your_pgn_file1.pgn", "output_book1.bin")
-    build_book_file("your_pgn_file2.pgn", "output_book2.bin")
+    build_book_file("your_pgn_file1.pgn(ur pgn)", "output_book1.bin(name of result .bin book")
+    build_book_file("your_pgn_file2.pgn", "output_book2.bin") #Repeat above for converting a second PGN To second .bin file , names should be different
     python smoothestbinmaker.py or python3 smoothestbinmaker.py
 ```
 ---
 To undo a `.bin` to `.pgn` go through the code`extract_pgn_from_bin,u_can_use_it_also.py` update the paths and try to do it urself , *It is good*
 ---
-## I put a sample github actions workflow which u can run after editing `smoothestbinmaker.py` ( just under `if name == '_main_'`) to download the books via github artifacts
+## I put a sample github actions workflow which u can run after editing `smoothestbinmaker.py` ( just under `if name == "_main_":`) to download the books via github artifacts
 
 
 ## IF U WANT TO MERGE MULTIPLE `.pgn` INTO A SINGLE BOOK , MODIFY `smoothestbinmaker.py` like this 
