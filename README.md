@@ -47,8 +47,9 @@ To convert pgn to bin in `smoothestbinmaker.py`
     if __name__ == "__main__":
     build_book_file("your_pgn_file1.pgn(ur pgn)", "output_book1.bin(name of result .bin book")
     build_book_file("your_pgn_file2.pgn", "output_book2.bin") #Repeat above for converting a second PGN To second .bin file , names should be different
-    python smoothestbinmaker.py or python3 smoothestbinmaker.py
 ```
+Then run 
+ ```python smoothestbinmaker.py``` or ```python3 smoothestbinmaker.py```
 ---
 To undo a `.bin` to `.pgn` go through the code`extract_pgn_from_bin,u_can_use_it_also.py` update the paths and try to do it urself , *It is good*
 ---
