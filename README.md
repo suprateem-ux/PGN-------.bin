@@ -30,6 +30,9 @@ Convert **PGN files to Polyglot `.bin` opening books** and extract moves from `.
 
 ## ✅ Step 1: Requirements
 - Python **3.11+**
+- U can check it by ```bash
+-                     python --version
+-                 ```
 - [python-chess](https://pypi.org/project/python-chess/)
 
 Install using:
