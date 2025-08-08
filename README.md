@@ -3,7 +3,7 @@
 Convert **PGN files to Polyglot `.bin` opening books** and extract moves from `.bin` to PGN easily with Python.
 ---
 
-### ✅ What You Can Do in 4 Steps:
+### ✅ What You Can Do in 4 Steps: (*MAKE SURE TO KEEP EVERYTHING IN SAME FOLDER/DIRECTORY/REPOSITORY*)
 **Step 1:** Install dependencies  
 **Step 2:** Clone this repository  
 **Step 3:** Place your PGN/BIN files and update script paths  
