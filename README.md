@@ -15,6 +15,7 @@ Convert **PGN files to Polyglot `.bin` opening books** and extract moves from `.
 - **Create `.bin` books from PGN** → `smoothestbinmaker.py`
 - **Extract PGN from `.bin`** → `extractpgnfrombin_u_can_use_it_also.py`
 - **Generate randomized moves from `.bin`** → `generatepgn2frombin.py` , i suggest never use it, it returns random moves in random lines from entire book u will get a illegal line .
+- ### Remember `smoothestbinmaker.py` is gr8 but you cant merge a pgn file into an existing book , in this case all the previous material of the book will be erased and it will only have the new PGN , for this i created a `mergePGNintoaexistingbin.py`###
 
 ---
 
@@ -65,6 +66,15 @@ To undo a `.bin` to `.pgn` go through the code`extract_pgn_from_bin,u_can_use_it
 ```
 then run it , remember `python3` for linux and `python` for windows
 
-###### PRS ARE WELCOME !!
+## FOR ADDING A `.pgn` INTO A EXISTING `.bin` BOOK WITHOUT ERASING THE EARLIER DATA OF THE BOOK ##
+Edit `mergePGNintoaexistingbin.py` , where `nikimoves.bin` is the old book in which u want to merge `draw.pgn`
+It can look like 
+```bash
+if __name__ == "__main__":
+    # 👇 Merge into existing book
+    book = Book()
+    book.merge_file("thebookwhereuwannamerge.bin")  # Load old book
 
-
+    # 👇 Add new lines from PGN
+    build_book_file("whichneedstobeadded.pgn", "thebookwhereuwannamerge.bin", book)  # Save updated book
+``` 
