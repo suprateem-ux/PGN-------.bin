@@ -113,6 +113,170 @@
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8. Rxe5 O-O 9. d4 Ne8 10. c4 Bf6 11. Re1 d5 12. cxd5 Qxd5 13. Be3 Be6 14. Nc3 Qd7 15. d5 Bf5 16. a4 Nd6 17. a5 a6 18. Na4 Rae8 19. Qb3 Qd8 20. Nc5 Bc8 21. Red1 Bg5 22. Bd4 Bf6 23. Bc3 Bxc3 24. bxc3 Qg5 25. c4 h5 26. Qc3 h4 27. h3 Re7 28. Qc1 Qf6 29. Ra3 Rfe8 30. Rf3 Qg6 31. Bd3 Qh5 32. Bf1 Qg6 33. Nb3 Ne4 34. Bd3 Qd6 35. c5 Qxd5 36. Bb5 Qxd1+ 37. Qxd1 axb5 38. Re3 c6 39. f3 Nf6 40. Rxe7 Rxe7 41. Qd6 Re8 42. Nd4 Nh5 43. a6 bxa6 44. Nxc6 Kh7 45. Kh2 a5 46. Nxa5 f6 47. c6 Ng3 48. Qb4 Nf5 49. Nb3 Rd8 50. Qxb5 g5 51. Qe2 Rd6 52. Qe8 Be6 53. c7 Rd1 54. Qxe6 Ng3 55. Qf7+ Kh6 56. Qxf6+ Kh5 57. Qa1 Rxa1 58. Nxa1 Kg6 59. c8=Q Kf6 60. Nb3 Nf5 61. Qd8+ Kf7 62. Qd7+ Kf6 63. Qc6+ Ke5 64. Qc3+ Kd5 65. Qd3+ Ke5 66. Qc3+ Kd5 67. Qd2+ Kc4 68. Qc2+ Kb4 69. Qxf5 Kxb3 70. Qxg5 Kc3 71. Qe3+ Kb2 72. f4 Ka1 73. f5 Kb1 74. f6 Ka1 75. f7 Kb1 76. f8=R Ka1 77. Rf2 Kb1 78. Qe1# 1-0
 
+[Event "rated bullet game"]
+[Site "https://lichess.org/GhFJMhiz"]
+[Date "2025.08.08"]
+[White "NNUE_Drift"]
+[Black "InvinxibleFlxsh"]
+[Result "1-0"]
+[GameId "GhFJMhiz"]
+[UTCDate "2025.08.08"]
+[UTCTime "07:44:17"]
+[WhiteElo "3182"]
+[BlackElo "3165"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "0+1"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Bg4 7. h3 Bh5 8. g4 Nxg4 9. hxg4 Bxg4 10. Be3 Be7 11. Kg2 f5 12. Qe1 Bxf3+ 13. Kxf3 f4 14. Bd2 Qd7 15. Ke2 g5 16. Bc3 Bf6 17. Nd2 h5 18. Rh1 g4 19. Nc4 Qe6 20. f3 O-O-O 21. Qf2 Kb8 22. a3 g3 23. Qg2 Rdg8 24. Qh3 Qe7 25. Rag1 h4 26. b4 b6 27. Kf1 a5 28. Kg2 Rd8 29. Rb1 a4 30. Nb2 b5 31. Nd1 Kb7 32. Re1 Rh5 33. Bb2 Qf7 34. Nc3 Be7 35. Red1 Rd6 36. Ne2 Qa2 37. Nc3 Qf7 38. Rd2 Rdh6 39. Rbd1 Rd6 40. Ne2 Rd8 41. Nc1 c5 42. c3 Qe8 43. d4 exd4 44. Nd3 c4 45. Nxf4 d3 46. Nxh5 Qxh5 47. Qg4 Qe5 48. Kh3 Rf8 49. Rf1 Bf6 50. Qf5 Qxf5+ 51. exf5 Re8 52. Rg2 Rh8 53. Rd1 Rh5 54. Bc1 Bxc3 55. Kg4 Rh8 56. Bg5 c5 57. bxc5 Bd4 58. Bxh4 Bxc5 59. Bf6 Rg8+ 60. Kf4 Bxa3 61. Be5 Rd8 62. Rxg3 Bf8 63. Rg6 b4 64. Rh1 Rd7 65. Rg8 Bc5 66. Ke4 d2 67. Rg7 Rxg7 68. Bxg7 Bf2 69. f6 Be1 70. f7 d1=Q 71. f8=Q Qd3+ 72. Kf4 Bd2+ 73. Kg3 Qg6+ 74. Kf2 Qb6+ 75. Kf1 Qg6 76. Bd4 Bg5 77. Qxb4+ Kc7 78. Qxc4+ Kd7 79. Qb5+ Ke7 80. Qb7+ Ke6 81. Qc6+ Kf7 82. Qd7+ Be7 83. Qd5+ Ke8 84. Rh8+ Bf8 85. Qb5+ Ke7 86. Bc5+ Qd6 87. Rxf8 Kxf8 88. Bxd6+ Kg8 89. Qb7 a3 90. Bxa3 Kh8 91. Bb2+ Kg8 92. Qg7# 1-0
+
+
+[Event "rated rapid game"]
+[Site "https://lichess.org/h3laO7d5"]
+[Date "2025.08.08"]
+[White "NNUE_Drift"]
+[Black "InvinxibleFlxsh"]
+[Result "1-0"]
+[GameId "h3laO7d5"]
+[UTCDate "2025.08.08"]
+[UTCTime "07:28:38"]
+[WhiteElo "3122"]
+[BlackElo "3109"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Bg4 7. h3 Bh5 8. g4 Nxg4 9. hxg4 Bxg4 10. Be3 Be7 11. Kg2 f5 12. Qe1 Bxf3+ 13. Kxf3 f4 14. Bd2 Qd7 15. Ke2 g5 16. Bc3 Bf6 17. Nd2 h5 18. Rh1 g4 19. Nc4 Qe6 20. f3 O-O-O 21. Qf2 Kb8 22. a3 g3 23. Qg2 Rdg8 24. Qh3 Qe7 25. Rag1 h4 26. b4 b6 27. Kf1 a5 28. Kg2 Rd8 29. Rb1 a4 30. Nb2 b5 31. Nd1 Kb7 32. Re1 Rh5 33. Bb2 Qf7 34. Nc3 Be7 35. Red1 Qg6 36. Ne2 Bf8 37. c4 Qf7 38. Bc3 bxc4 39. d4 exd4 40. Rxd4 Bd6 41. Rd2 Be7 42. Rxd8 Bxd8 43. Rd1 Bg5 44. Nd4 Rh6 45. b5 cxb5 46. Nxb5 Qe6 47. Rb1 Qxh3+ 48. Kxh3 Kc6 49. e5 Kd7 50. Rd1+ Kc8 51. Bb4 Rg6 52. Nd4 Kb7 53. Rc1 c3 54. Rc2 Rg8 55. Rxc3 Re8 56. Rc5 Bh6 57. Rb5+ Ka6 58. Ra5+ Kb6 59. Rb5+ Ka6 60. Ra5+ Kb6 61. Bc3 Bf8 62. Ne2 Rd8 63. Nxf4 Rd1 64. Kxh4 g2 65. Nxg2 Rd3 66. Be1 Rxf3 67. Rxa4 Bxa3 68. Kg4 Rb3 69. e6 Kb5 70. Re4 Rb1 71. Bg3 Kc6 72. Nf4 Bd6 73. Re3 Kb7 74. Nd5 Rg1 75. Kf5 Rxg3 76. Rxg3 Ba3 77. Rxa3 Kc6 78. Nxc7 Kb7 79. e7 Kc8 80. e8=Q+ Kb7 81. Qd7 Kb8 82. Rb3+ Ka7 83. Qa4# 1-0
+
+
+[Event "rated rapid game"]
+[Site "https://lichess.org/h3laO7d5"]
+[Date "2025.08.08"]
+[White "NNUE_Drift"]
+[Black "InvinxibleFlxsh"]
+[Result "1-0"]
+[GameId "h3laO7d5"]
+[UTCDate "2025.08.08"]
+[UTCTime "07:28:38"]
+[WhiteElo "3122"]
+[BlackElo "3109"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Bg4 7. h3 Bh5 8. g4 Nxg4 9. hxg4 Bxg4 10. Be3 Be7 11. Kg2 f5 12. Qe1 Bxf3+ 13. Kxf3 f4 14. Bd2 Qd7 15. Ke2 g5 16. Bc3 Bf6 17. Nd2 h5 18. Rh1 g4 19. Nc4 Qe6 20. f3 O-O-O 21. Qf2 Kb8 22. a3 g3 23. Qg2 Rdg8 24. Qh3 Qe7 25. Rag1 h4 26. b4 b6 27. Kf1 a5 28. Kg2 Rd8 29. Rb1 a4 30. Nb2 b5 31. Nd1 Kb7 32. Re1 Rh5 33. Bb2 Qf7 34. Nc3 Be7 35. Red1 Qg6 36. Ne2 Bf8 37. c4 Qf7 38. Bc3 bxc4 39. d4 exd4 40. Rxd4 Bd6 41. Rd2 Be7 42. Rxd8 Bxd8 43. Rd1 Bg5 44. Nd4 Rh6 45. b5 cxb5 46. Nxb5 Qe6 47. Rb1 Qxh3+ 48. Kxh3 Kc6 49. e5 Kd7 50. Rd1+ Kc8 51. Bb4 Rg6 52. Nd4 Kb7 53. Rc1 c3 54. Rc2 Rg8 55. Rxc3 Re8 56. Rc5 Bh6 57. Rb5+ Ka6 58. Ra5+ Kb6 59. Rb5+ Ka6 60. Ra5+ Kb6 61. Bc3 Bf8 62. Ne2 Rd8 63. Nxf4 Rd1 64. Kxh4 g2 65. Nxg2 Rd3 66. Be1 Rxf3 67. Rxa4 Bxa3 68. Kg4 Rb3 69. e6 Kb5 70. Re4 Rb1 71. Bg3 Kc6 72. Nf4 Bd6 73. Re3 Kb7 74. Nd5 Rg1 75. Kf5 Rxg3 76. Rxg3 Ba3 77. Rxa3 Kc6 78. Nxc7 Kb7 79. e7 Kc8 80. e8=Q+ Kb7 81. Qd7 Kb8 82. Rb3+ Ka7 83. Qa4# 1-0
+
+
+[Event "rated rapid game"]
+[Site "https://lichess.org/h3laO7d5"]
+[Date "2025.08.08"]
+[White "NNUE_Drift"]
+[Black "InvinxibleFlxsh"]
+[Result "1-0"]
+[GameId "h3laO7d5"]
+[UTCDate "2025.08.08"]
+[UTCTime "07:28:38"]
+[WhiteElo "3122"]
+[BlackElo "3109"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Bg4 7. h3 Bh5 8. g4 Nxg4 9. hxg4 Bxg4 10. Be3 Be7 11. Kg2 f5 12. Qe1 Bxf3+ 13. Kxf3 f4 14. Bd2 Qd7 15. Ke2 g5 16. Bc3 Bf6 17. Nd2 h5 18. Rh1 g4 19. Nc4 Qe6 20. f3 O-O-O 21. Qf2 Kb8 22. a3 g3 23. Qg2 Rdg8 24. Qh3 Qe7 25. Rag1 h4 26. b4 b6 27. Kf1 a5 28. Kg2 Rd8 29. Rb1 a4 30. Nb2 b5 31. Nd1 Kb7 32. Re1 Rh5 33. Bb2 Qf7 34. Nc3 Be7 35. Red1 Qg6 36. Ne2 Bf8 37. c4 Qf7 38. Bc3 bxc4 39. d4 exd4 40. Rxd4 Bd6 41. Rd2 Be7 42. Rxd8 Bxd8 43. Rd1 Bg5 44. Nd4 Rh6 45. b5 cxb5 46. Nxb5 Qe6 47. Rb1 Qxh3+ 48. Kxh3 Kc6 49. e5 Kd7 50. Rd1+ Kc8 51. Bb4 Rg6 52. Nd4 Kb7 53. Rc1 c3 54. Rc2 Rg8 55. Rxc3 Re8 56. Rc5 Bh6 57. Rb5+ Ka6 58. Ra5+ Kb6 59. Rb5+ Ka6 60. Ra5+ Kb6 61. Bc3 Bf8 62. Ne2 Rd8 63. Nxf4 Rd1 64. Kxh4 g2 65. Nxg2 Rd3 66. Be1 Rxf3 67. Rxa4 Bxa3 68. Kg4 Rb3 69. e6 Kb5 70. Re4 Rb1 71. Bg3 Kc6 72. Nf4 Bd6 73. Re3 Kb7 74. Nd5 Rg1 75. Kf5 Rxg3 76. Rxg3 Ba3 77. Rxa3 Kc6 78. Nxc7 Kb7 79. e7 Kc8 80. e8=Q+ Kb7 81. Qd7 Kb8 82. Rb3+ Ka7 83. Qa4# 1-0
+
+
+[Event "rated bullet game"]
+[Site "https://lichess.org/TwqV5h8k"]
+[Date "2025.08.07"]
+[White "HIWIN1234"]
+[Black "InvinxibleFlxsh"]
+[Result "1-0"]
+[GameId "TwqV5h8k"]
+[UTCDate "2025.08.07"]
+[UTCTime "11:42:52"]
+[WhiteElo "3166"]
+[BlackElo "3158"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Bg4 7. h3 Bh5 8. g4 Nxg4 9. hxg4 Bxg4 10. Be3 Be7 11. Kg2 f5 12. Qe1 Bxf3+ 13. Kxf3 f4 14. Bd2 Qd7 15. Ke2 g5 16. Bc3 Bf6 17. Nd2 h5 18. Rh1 g4 19. Nc4 Qe6 20. f3 O-O-O 21. Qf2 Kb8 22. a3 g3 23. Qg2 Rdg8 24. Qh3 Qe7 25. Rag1 h4 26. Rg2 Rh5 27. Kf1 b6 28. Re2 Rgh8 29. Kg2 a5 30. b4 a4 31. Nb2 Kb7 32. Bd2 Ra8 33. Rd1 Qf7 34. Bc1 Rhh8 35. d4 Rad8 36. Rdd2 Bg7 37. Nxa4 Qa2 38. Nb2 Qb1 39. Rd1 Rxd4 40. Rxd4 exd4 41. Nd3 Be5 42. Kg1 Ra8 43. Qf1 Bf6 44. e5 Be7 45. e6 Qa1 46. Nxf4 d3 47. Nxd3 Qd4+ 48. Be3 Qf6 49. Bf4 Rg8 50. Qh3 Qa1+ 51. Kg2 Rd8 52. a4 Rh8 53. a5 Qb1 54. axb6 cxb6 55. Rd2 Rg8 56. Be5 Ka6 57. Qf5 Kb7 58. Nf4 Qe1 59. Bc3 Qe3 60. Qe5 Qxe5 61. Bxe5 Bxb4 62. Rd7+ Ka6 63. Bf6 Rf8 64. Rf7 Rg8 65. Bxh4 Bd6 66. Be7 Bxf4 67. Rxf4 Re8 68. Re4 Rg8 69. Bf6 Rc8 70. e7 Re8 71. f4 b5 72. f5 b4 73. Bg7 b3 74. cxb3 Kb7 75. f6 Ra8 76. e8=Q Rxe8 77. Rxe8 c5 78. f7 c4 79. f8=Q Ka6 80. Qd6+ Kb7 81. Re7+ Kc8 82. Qc7# 1-0
+
+
+[Event "casual bullet game"]
+[Site "https://lichess.org/OthEy82h"]
+[Date "2025.07.26"]
+[White "NimsiluBot"]
+[Black "Endogenetic-Bot"]
+[Result "1-0"]
+[GameId "OthEy82h"]
+[UTCDate "2025.07.26"]
+[UTCTime "08:54:58"]
+[WhiteElo "3220"]
+[BlackElo "3252"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "30+0"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Bg4 7. h3 Bh5 8. g4 Nxg4 9. hxg4 Bxg4 10. Be3 Be7 11. Kg2 f5 12. Qe1 Bxf3+ 13. Kxf3 f4 14. Bd2 Qd7 15. Ke2 g5 16. Bc3 Bf6 17. Nd2 h5 18. Rh1 g4 19. Nc4 Qe6 20. f3 O-O-O 21. Qf2 Kb8 22. a3 g3 23. Qg2 Rdg8 24. Qh3 Qe7 25. Rag1 h4 26. b4 b6 27. Kf1 a5 28. Kg2 Rd8 29. Rb1 a4 30. Nb2 b5 31. Nd1 Kb7 32. Re1 Rh5 33. Bb2 Qf7 34. Nc3 Be7 35. Red1 Ka6 36. Rd2 Ka7 37. Rbd1 Kb6 38. Ne2 Kb7 39. Nc1 c5 40. c3 Qf8 41. bxc5 Bxc5 42. d4 Bxa3 43. Nd3 Bd6 44. Rb1 c6 45. Bc1 Ka6 46. dxe5 Bc7 47. c4 Bxe5 48. cxb5+ cxb5 49. Nxe5 Rxe5 50. Qxh4 Rxd2+ 51. Bxd2 Rc5 52. Qxf4 Qxf4 53. Bxf4 Rc6 54. Kxg3 a3 55. Rb3 a2 56. Ra3+ Kb7 57. Rxa2 Rg6+ 58. Kf2 Re6 59. Bd2 Kc7 60. Rb2 Kc6 61. Ke3 Kc5 62. f4 Ra6 63. e5 Ra4 64. Rb4 Ra6 65. Rd4 b4 66. Bxb4+ Kb5 67. Bd2 Rg6 68. f5 Rg3+ 69. Ke4 Rg4+ 70. Bf4 Kc5 71. f6 Rg1 72. f7 Re1+ 73. Be3 Rf1 74. Rd1+ Kb4 75. Rxf1 Ka3 76. f8=Q+ Kb3 77. Qb8+ Ka2 78. Kf3 Ka3 79. Ra1# 1-0
+
+
+[Event "casual bullet game"]
+[Site "https://lichess.org/2Q1nISQp"]
+[Date "2025.07.26"]
+[White "NimsiluBot"]
+[Black "Endogenetic-Bot"]
+[Result "1-0"]
+[GameId "2Q1nISQp"]
+[UTCDate "2025.07.26"]
+[UTCTime "07:29:36"]
+[WhiteElo "3220"]
+[BlackElo "3252"]
+[WhiteTitle "BOT"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "30+0"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Bg4 7. h3 Bh5 8. g4 Nxg4 9. hxg4 Bxg4 10. Be3 Be7 11. Kg2 f5 12. Qe1 Bxf3+ 13. Kxf3 f4 14. Bd2 Qd7 15. Ke2 g5 16. Bc3 Bf6 17. Nd2 h5 18. Rh1 g4 19. Nc4 Qe6 20. f3 O-O-O 21. Qf2 Kb8 22. a3 g3 23. Qg2 Rdg8 24. Qh3 Qe7 25. Rag1 h4 26. Rg2 Rh5 27. Kf1 b6 28. Re2 Rgh8 29. Kg2 a5 30. b4 a4 31. Nb2 Kb7 32. Bd2 Ra8 33. Rd1 Qf7 34. Bc1 Rhh8 35. d4 Rad8 36. Rdd2 Bg7 37. Nxa4 Qa2 38. Nb2 Qb1 39. Rd1 Rxd4 40. Rxd4 exd4 41. Nd3 Be5 42. Kg1 Bd6 43. Qe6 h3 44. Qb3 Qa1 45. Re1 Rh5 46. a4 Kb8 47. Kh1 Rg5 48. a5 Kb7 49. axb6 Rg7 50. e5 Be7 51. Bxf4 Qa8 52. Bxg3 cxb6 53. b5 Rxg3 54. bxc6+ Kc7 55. Qe6 Qxc6 56. Qxe7+ Qd7 57. Qf6 h2 58. e6 Qd6 59. Qf7+ Kc6 60. e7 Rg1+ 61. Rxg1 hxg1=Q+ 62. Kxg1 Qg3+ 63. Kf1 Qh3+ 64. Ke2 Qh2+ 65. Kd1 Qh1+ 66. Ne1 Qh8 67. e8=Q+ Qxe8 68. Qxe8+ Kd6 69. Nd3 b5 70. f4 b4 71. Ne5 Kc7 72. Qc6+ Kb8 73. Nd7+ Ka7 74. Nc5 b3 75. Qb7# 1-0
+
+
+
+
 
 
 

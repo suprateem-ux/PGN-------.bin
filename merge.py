@@ -3,11 +3,9 @@ import chess.pgn
 import chess.polyglot
 import datetime
 
-# Maximum number of moves from each game to include in the book
+# Constants
 MAX_BOOK_PLIES = 200
-# Internal weight normalization target
 MAX_BOOK_WEIGHT = 1000000
-# Maximum weight allowed in Polyglot entry (16-bit)
 POLYGLOT_MAX_WEIGHT = 65535
 
 def format_zobrist_key_hex(zobrist_key):
@@ -63,7 +61,6 @@ class Book:
 
                     mbytes = mi.to_bytes(2, byteorder="big")
 
-                    # Clamp weight to 1..65535 for Polyglot format
                     weight = min(max(bm.weight, 1), POLYGLOT_MAX_WEIGHT)
                     wbytes = weight.to_bytes(2, byteorder="big")
 
@@ -72,20 +69,19 @@ class Book:
                     entry = zbytes + mbytes + wbytes + lbytes
                     entries.append(entry)
 
-            # Sort by Zobrist key and move order
             entries.sort(key=lambda e: (e[:8], e[10:12]), reverse=False)
 
             for entry in entries:
                 outfile.write(entry)
 
-            print(f"Saved {len(entries)} moves to book: {path}")
+            print(f"✅ Saved {len(entries)} moves to book: {path}")
 
     def merge_file(self, path):
         with chess.polyglot.open_reader(path) as reader:
             for i, entry in enumerate(reader, start=1):
                 key_hex = format_zobrist_key_hex(entry.key)
                 pos = self.get_position(key_hex)
-                move = entry.move()
+                move = entry.move
                 uci = move.uci()
 
                 bm = pos.get_move(uci)
@@ -93,14 +89,11 @@ class Book:
                 bm.weight += entry.weight
 
                 if i % 10000 == 0:
-                    print(f"Merged {i} moves")
+                    print(f"📚 Merged {i} moves from {path}")
 
 class LichessGame:
     def __init__(self, game):
         self.game = game
-
-    def get_id(self):
-        return self.game.headers["Site"].split("/")[-1]
 
     def get_time(self):
         dt_str = self.game.headers["UTCDate"] + "T" + self.game.headers["UTCTime"]
@@ -121,12 +114,11 @@ def correct_castling_uci(uci, board):
         if uci == "e8c8": return "e8a8"
     return uci
 
-def build_book_file(pgn_path, book_path):
-    book = Book()
+def build_book_file(pgn_path, book_path, book):
     with open(pgn_path) as pgn_file:
         for i, game in enumerate(iter(lambda: chess.pgn.read_game(pgn_file), None), start=1):
             if i % 100 == 0:
-                print(f"Processed {i} games from {pgn_path}")
+                print(f"🔁 Processed {i} games from {pgn_path}")
 
             ligame = LichessGame(game)
             board = game.board()
@@ -151,5 +143,9 @@ def build_book_file(pgn_path, book_path):
     book.save_as_polyglot(book_path)
 
 if __name__ == "__main__":
-   # build_book_file("SamplePGN.pgn", "lila.bin")
-    build_book_file("draw.pgn", "nikimoves.bin")
+    # 👇 Merge into existing book
+    book = Book()
+    book.merge_file("nikimoves.bin")  # Load old book
+
+    # 👇 Add new lines from PGN
+    build_book_file("draw.pgn", "nikimoves.bin", book)  # Save updated book
