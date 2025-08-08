@@ -52,7 +52,7 @@ Then run
  ``` 
 python smoothestbinmaker.py
 ```bash
-pthon 3 smoothestbinmaker.py
+python3 smoothestbinmaker.py
 ```
 (`python3` for linux , `python` for windows)
 ---
