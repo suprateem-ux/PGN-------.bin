@@ -1,0 +1,33 @@
+name: Build Polyglot Books
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-books:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install python-chess
+
+      - name: Generate BIN files
+        run: |
+          python smoothestbinmaker.py
+
+      - name: Upload BIN files as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: polyglot-books
+          path: |
+            *.bin
