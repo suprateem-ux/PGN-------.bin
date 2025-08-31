@@ -25,6 +25,7 @@ Convert **PGN files to Polyglot `.bin` opening books** and extract moves from `.
 ✔ Supports multiple PGNs and combined book creation  
 ✔ Handles large PGNs without overflow  
 ✔ Includes **GitHub Actions automation**  
+Remember you can just give a random book name , it creates books automaticaly
 
 ---
 
@@ -85,9 +86,9 @@ if __name__ == "__main__":
     # 👇 Add new lines from PGN
     build_book_file("whichneedstobeadded.pgn", "thebookwhereuwannamerge.bin", book)  # Save updated book
 
-##For making books for variants 
-U have to add a .PGN in the directory , go to `variantbookmaker.py` and put the name of the .pgn in 
 ```
+##If u want to create a variant .bin book for fairy stockfish , use `variantbookmaker.py` , u need to have a .pgn , open the `variantbookmaker.py` , go to top part 
+```bash 
 import io
 import chess
 import chess.pgn
@@ -95,8 +96,9 @@ import chess.polyglot
 import chess.variant
 import random
 
-PGN_INPUT = "hordewhite.pgn"
-BOOK_OUTPUT = "horde_book_white.bin"
+PGN_INPUT = "hordewhite.pgn" #REPLACE WITH UR OWN PGN 
+BOOK_OUTPUT = "horde_book_white.bin" #REPLACE WITH UR OWN BOOK NAME (THE BOOK WILL BE AUTOMATICALLY CREATED , GIVE A RANDOM NAME
 MAX_PLY = 60
 MAX_BOOK_WEIGHT = 2520
-
+```
+Follow the instructions written after the 3rd and 4th last lines 
