@@ -62,7 +62,7 @@ To undo a `.bin` to `.pgn` go through the code`extract_pgn_from_bin,u_can_use_it
 # I put a sample github actions workflow which u can run after editing `smoothestbinmaker.py` ( just under `if name == "_main_":`) to download the books via github artifacts
 
 
-## IF U WANT TO MERGE MULTIPLE `.pgn` INTO A SINGLE BOOK , MODIFY `smoothestbinmaker.py` like this 
+## IF U WANT TO MERGE MULTIPLE `.pgn` INTO A SINGLE BOOK , MODIFY `merge.py` like this 
 ```bash
    if __name__ == "__main__":
     combined_book = Book()
@@ -72,10 +72,11 @@ To undo a `.bin` to `.pgn` go through the code`extract_pgn_from_bin,u_can_use_it
     combined_book.merge_file("temp2.bin")
     combined_book.save_as_polyglot("combined.bin")
 ```
+Bruh , i recommend not to do like it , suppose u have 5 .pgn , then pick the last 4 , copy them and paste into the remaining .pgn , and follow the normal steps , afterall its same after all . 
 then run it , remember `python3` for linux and `python` for windows
 
 ## FOR ADDING A `.pgn` INTO A EXISTING `.bin` BOOK WITHOUT ERASING THE EARLIER DATA OF THE BOOK ##
-Edit `mergePGNintoaexistingbin.py` , where `nikimoves.bin` is the old book in which u want to merge `draw.pgn`
+Edit `merge.py` , where `nikimoves.bin` is the old book in which u want to merge `draw.pgn`
 It can look like 
 ```bash
 if __name__ == "__main__":
