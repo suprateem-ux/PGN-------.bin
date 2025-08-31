@@ -84,4 +84,19 @@ if __name__ == "__main__":
 
     # 👇 Add new lines from PGN
     build_book_file("whichneedstobeadded.pgn", "thebookwhereuwannamerge.bin", book)  # Save updated book
-``` 
+
+##For making books for variants 
+U have to add a .PGN in the directory , go to `variantbookmaker.py` and put the name of the .pgn in 
+```
+import io
+import chess
+import chess.pgn
+import chess.polyglot
+import chess.variant
+import random
+
+PGN_INPUT = "hordewhite.pgn"
+BOOK_OUTPUT = "horde_book_white.bin"
+MAX_PLY = 60
+MAX_BOOK_WEIGHT = 2520
+

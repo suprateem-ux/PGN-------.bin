@@ -152,4 +152,4 @@ def build_book_file(pgn_path, book_path):
 
 if __name__ == "__main__":
    # build_book_file("SamplePGN.pgn", "lila.bin")
-    build_book_file("draw.pgn", "nikimoves.bin")
+    build_book_file("drawing.pgn", "drawing.bin")
