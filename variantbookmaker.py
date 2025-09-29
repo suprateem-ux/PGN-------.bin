@@ -5,10 +5,32 @@ import chess.polyglot
 import chess.variant
 import random
 
-PGN_INPUT = "hordewhite.pgn"
-BOOK_OUTPUT = "horde_book_white.bin"
+PGN_INPUT = "variant.pgn" #has to be there in the root
+BOOK_OUTPUT = "variant.bin" #will be made automaticaly 
 MAX_PLY = 60
 MAX_BOOK_WEIGHT = 2520
+
+# Choose your variant here: "standard", "antichess", "threecheck", "atomic", 
+# "horde", "crazyhouse", "racingkings", "kingofthehill"
+VARIANT = "threecheck"
+
+def make_board():
+    if VARIANT == "antichess":
+        return chess.variant.AntichessBoard()
+    elif VARIANT == "threecheck":
+        return chess.variant.ThreeCheckBoard()
+    elif VARIANT == "atomic":
+        return chess.variant.AtomicBoard()
+    elif VARIANT == "horde":
+        return chess.variant.HordeBoard()
+    elif VARIANT == "crazyhouse":
+        return chess.variant.CrazyhouseBoard()
+    elif VARIANT == "racingkings":
+        return chess.variant.RacingKingsBoard()
+    elif VARIANT == "kingofthehill":
+        return chess.variant.KingOfTheHillBoard()
+    else:
+        return chess.Board()  # default: standard chess
 
 class BookMove:
     def __init__(self):
@@ -70,7 +92,7 @@ def build_book(pgn_file, bin_file):
         if game is None:
             break
 
-        board = chess.variant.HordeBoard()
+        board = make_board()
         result = game.headers.get("Result", "*")
 
         for ply, move in enumerate(game.mainline_moves()):
@@ -89,7 +111,11 @@ def build_book(pgn_file, bin_file):
             elif result == "1/2-1/2":
                 bm.weight += 2 * decay
 
-            board.push(move)
+            try:
+                board.push(move)
+            except Exception as e:
+                print("Illegal move:", move, "in position", board.fen(), "-", e)
+                break
 
     book.normalize()
     for pos in book.positions.values():
